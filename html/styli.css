@@ -1,0 +1,111 @@
+body {
+    background-image: url("music.jpg");
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position:right;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .menu-bar {
+    text-align: center;
+    font-size:25px ;
+    background-color: #070056;
+  }
+  
+  .menu-bar ul {
+    display: inline-flex;
+    color: floralwhite;
+  }
+  
+  .menu-bar ul li {
+    font-family: Impact;
+    width: 140px;
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .menu-bar ul li:hover {
+    background: floralwhite;
+    color: #000000;
+    border-radius: 3px;
+  }
+  
+  .paragraph {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'sans-serif';
+    color: blueviolet;
+  }
+  
+  .paragraph2 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman';
+    color: blue;
+  }
+  
+  .paragraph5 {
+    font-size: 40px;
+    text-align: bottom;
+    font-family: 'Times New Roman';
+    margin: 10px;
+    color: black;
+  }
+  
+  .lets-go-btn {
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px;
+  }
+  
+  .lets-go-btn:hover {
+    background: rgb(54, 1, 1);
+  }
+  
+  .icons {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+  }
+  
+  .icons a {
+    margin-right: 75px;
+  }
+  
+  .icons :hover {
+    transform: scale(1.5);
+  }
+  
+  .footer {
+    background-color: black;
+    margin-top: 28%;
+  }
+  
+  .p1 {
+    color: rgba(255, 250, 240, 0.921);
+    font-size: medium;
+    text-align:center;
+    padding-bottom: 10px;
+  }
+  
